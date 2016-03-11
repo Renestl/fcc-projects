@@ -1,0 +1,64 @@
+/* styles.css */
+
+body {
+    margin-bottom: 150px; 
+    font-size: 18px;
+}
+
+.col-md-8 {
+   background-color: lightgray;
+}
+
+h1, h4, img {
+    text-align: center;
+}
+
+h1 {
+    padding-top: 50px;
+    font-weight: bold;
+    font-size: 42px;
+}
+
+h4 {
+    font-style: italic;
+    font-size: 1.25em
+}
+
+.thumbnail {
+    margin-bottom: 50px;
+}
+
+img {
+    margin-top: 20px;
+}
+
+.caption {
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1.1em;
+    padding-top: 20px;
+}
+
+.text-muted {
+    font-size: 0.8em;
+}
+
+p {
+    font-size: 1.1em;
+    text-align: center;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, sans-serif;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    
+}
