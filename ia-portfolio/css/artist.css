@@ -1,0 +1,200 @@
+html,
+body,
+.cover {
+    height: 100%;
+    
+}
+
+body {
+    background: #45abcc;
+}
+
+.cover {
+    background: url('http://res.cloudinary.com/ronanland/image/upload/v1453598201/background_tivcez.jpg') top left no-repeat;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+  
+}
+
+.cover-text {
+    text-align: center;
+    color: #1431B5;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.cover-text h1 {
+    margin: 0;
+    font-size: 70px;
+    text-shadow: 2px 2px 5px #FF982C;
+    font-family: Bodoni MT, Didot, Didot LT STD, Book Antiqua, Garamond, Georgia, Times New Roman, serif;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.navbar-nav img,
+.nav-bar-header button img{
+   height: 35px;
+}
+
+.navbar-default {
+    background: rgba(200,200,255, .1);
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #000;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+section {
+   background: rgba(200,200,255,.3);
+    padding: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 60px;
+}
+
+.about {
+    background: #6DC2DE;
+    margin: 0 auto;
+}
+
+.about em{
+    color:#1431B5;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px #FF982C;
+    padding: 10px;
+}
+
+#myWork{
+    background-color: #47abcd;
+    text-align: center;
+}
+
+#myWork .row {
+    margin-top: 20px;
+}
+
+.portfolio .carousel-caption {
+    background: rgba(0,0,0,0.65);
+    cursor: pointer;
+    position:absolute;
+    top: 0;
+    margin: 0 auto;
+    height: 100%;
+    opacity: 0;
+    -webkit-transition:all 0.45s ease-in-out;
+    -moz-transition:all 0.45s ease-in-out;
+    -o-transition:all 0.45s ease-in-out;
+    -ms-transition:all 0.45s ease-in-out;
+    transition:all 0.45s ease-in-out;
+}
+
+.portfolio h4 {
+    font-size: 20px;
+}
+
+.portfolio .carousel-caption:hover {
+    opacity: 1;
+}
+
+#abilities, #education {
+    background: #2595bb;
+    text-align: center;
+}
+
+#abilities p {
+    text-align: left;
+}
+
+#abilities h6 {
+    font-weight: bold;
+    padding:  20px 0 10px;
+    font-size: 18px;
+    border-top: solid 2px black;
+}
+
+#education .container {
+    margin-top: 50px;
+}
+
+#education h4, p {
+    padding: 5px;
+    text-align: center;
+}
+
+#education h4 {
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+#education p {
+    font-size: 18px
+}
+
+#contact {
+    background: #0680A9;
+    text-align: center;
+}
+
+#contact h3, h4 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.divider {
+    background: #2595bb;
+}
+
+.img-responsive {
+    margin: 0 auto;
+    padding-bottom: 5px;
+    min-height: 150px;
+}
+
+.btn {
+    box-shadow: 2px 2px 5px #FF982C;
+    margin: 10px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: Georgia, Times, sans-serif;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+    .cover-text h1 {
+        font-size: 40px;
+    }
+    section {
+        padding: 20px;
+    }
+    .portfolio .carousel-caption {
+        max-width: 300px;
+    }
+}
+
+/*
+@media (min-width: 568px) {
+    .navbar-fixed-top {
+    position: relative;
+    top: auto;
+    }
+}
+*/
