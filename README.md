@@ -6,19 +6,19 @@ These are the projects I'm working on as part of [Free Code Camp](http://www.fre
 
 ### Basic Front End Development Projects
 
-- [x] Build a Tribute Page | [Requirements](http://www.freecodecamp.com/challenges/build-a-tribute-page) | [Demo](http://codepen.io/renestl/full/LGqOaX/) | [Source]()
-- [x] Build a Personal Portfolio Page | [Requirements](http://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage) | [Demo](http://codepen.io/renestl/full/rxJdKz) | [Source]()
+- [x] Build a Tribute Page | [Requirements](http://www.freecodecamp.com/challenges/build-a-tribute-page) | [Demo](http://codepen.io/renestl/full/LGqOaX/) | [Source](https://github.com/Renestl/fcc-projects/tree/master/Tribute)
+- [x] Build a Personal Portfolio Page | [Requirements](http://www.freecodecamp.com/challenges/build-a-personal-portfolio-webpage) | [Demo](http://codepen.io/renestl/full/rxJdKz) | [Source](https://github.com/Renestl/fcc-projects/tree/master/ia-portfolio)
 
 ### Intermediate Front End Development Projects
 
-- [x] Build a Random Quote Machine | [Requirements](http://www.freecodecamp.com/challenges/build-a-random-quote-machine) | [Demo](http://codepen.io/renestl/full/OyjYMQ) | [Source]()
-- [x] Show the Local Weather | [Requirements](http://www.freecodecamp.com/challenges/show-the-local-weather) | [Demo](http://codepen.io/renestl/full/MKdxMw/) | [Source]()
-- [x] Build a Wikipedia Viewer | [Requirements](http://www.freecodecamp.com/challenges/build-a-wikipedia-viewer) | [Demo](http://codepen.io/renestl/full/PNYNGv/) | [Source]()
-- [x] Use the Twitch.tv JSON API | [Requirements](http://www.freecodecamp.com/challenges/use-the-twitchtv-json-api) | [Demo](http://codepen.io/renestl/full/aNNMVd/) | [Source]()
+- [x] Build a Random Quote Machine | [Requirements](http://www.freecodecamp.com/challenges/build-a-random-quote-machine) | [Demo](http://codepen.io/renestl/full/OyjYMQ) | [Source](https://github.com/Renestl/fcc-projects/tree/master/random-quote-generator)
+- [x] Show the Local Weather | [Requirements](http://www.freecodecamp.com/challenges/show-the-local-weather) | [Demo](http://codepen.io/renestl/full/MKdxMw/) | [Source](https://github.com/Renestl/fcc-projects/tree/master/local-weather)
+- [x] Build a Wikipedia Viewer | [Requirements](http://www.freecodecamp.com/challenges/build-a-wikipedia-viewer) | [Demo](http://codepen.io/renestl/full/PNYNGv/) | [Source](https://github.com/Renestl/fcc-projects/tree/master/wikipedia-viewer)
+- [x] Use the Twitch.tv JSON API | [Requirements](http://www.freecodecamp.com/challenges/use-the-twitchtv-json-api) | [Demo](http://codepen.io/renestl/full/aNNMVd/) | [Source](https://github.com/Renestl/fcc-projects/tree/master/twitch)
 
 ### Advanced Front End Development Projects
 
-  - [x] Build a JavaScript Calculator | [Requirements](http://www.freecodecamp.com/challenges/build-a-javascript-calculator) | [Demo](http://codepen.io/renestl/full/mVaZOo) | [Source]()
+  - [x] Build a JavaScript Calculator | [Requirements](http://www.freecodecamp.com/challenges/build-a-javascript-calculator) | [Demo](http://codepen.io/renestl/full/mVaZOo) | [Source](https://github.com/Renestl/fcc-projects/tree/master/javascript-calculator)
   - [ ] Build a Pomodoro Clock | [Requirements](http://www.freecodecamp.com/challenges/build-a-pomodoro-clock) | Demo | Source
   - [ ] Build a Tic Tac Toe Game | [Requirements](http://www.freecodecamp.com/challenges/build-a-tic-tac-toe-game) | Demo | Source
   - [ ] Build a Simon Game | [Requirements](http://www.freecodecamp.com/challenges/build-a-simon-game) | Demo | Source
