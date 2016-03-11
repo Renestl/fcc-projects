@@ -1,0 +1,170 @@
+/* styles.css */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    margin-bottom: 150px;
+    font-size: 62.5%;
+    /* 1 em = 10px */
+    background-color: #EECFEE;
+}
+
+.container-fluid {
+    background-color: white;
+    width: 40%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.6em;
+    font-weight: bold;
+}
+
+h1 span {
+    color: white;
+    -webkit-text-stroke: .5px black;
+    text-shadow: 2px 2px purple, 1px 1px 0 black, 2px 1px 0 black, 3px 3px 0 black;
+}
+
+nav-tabs {
+    border-radius: 20px;
+}
+
+nav {
+    padding: 10px;
+}
+
+nav a {
+    color: #C379C3;
+}
+
+img {
+    border-radius: 100%;
+    border: solid 3px #EECFEE;
+    height: 75px;
+    width: 75px;
+    margin: 20px;
+}
+
+#online {
+    background-color: #800080;
+    color: white;
+}
+
+#online a:link,
+#online a:focus,
+#online a:hover,
+#online a:visited {
+    color: white;
+}
+
+#offline {
+    background-color: #9F0A9F;
+    color: white;
+}
+
+#offline a:link,
+#offline a:focus,
+#offline a:hover,
+#offline a:visited {
+    color: white;
+}
+
+#noAccount {
+    background-color: #A32FA3;
+    color: black;
+}
+
+#noAccount a:link,
+#noAccount a:focus,
+#noAccount a:hover,
+#noAccount a:visited {
+    color: white;
+}
+
+#online section,
+#offline section,
+#noAccount section {
+    padding-bottom: 10px;
+    border: solid 1px #EECFEE;
+}
+
+section:after {
+    margin-bottom: 10px;
+}
+
+.info {
+    display: inline-block;
+}
+
+.username {
+    display: block;
+}
+
+.game {
+    display: block;
+    font-style: italic;
+    word-wrap: normal;
+}
+
+.username,
+.game {
+    font-size: 1.125em;
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: Georgia, Times, sans-serif;
+}
+
+
+/* media queries */
+
+@media screen and (max-width:750px) {
+    .container-fluid {
+        padding: 10px;
+        width: 60%;
+    }
+    .info {
+        display: block;
+    }
+    .streams {
+        text-align: center;
+    }
+    img {
+        height: 50px;
+        width: 50px;
+    }
+    section {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .container-fluid {
+        padding: 5px;
+        width: 60%;
+    }
+    h1 {
+        font-size: 2.5em;
+        line-height: 100%;
+    }
+    h1 span {
+        display: block;
+    }
+    img {
+        height: 50px;
+        width: 50px;
+    }
+        section {
+        text-align: center;
+    }
+}
