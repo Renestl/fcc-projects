@@ -1,0 +1,82 @@
+/* custom CSS */
+
+body {
+  font-family: cursive;
+  margin-bottom: 150px;
+  background-color: #87CEEB;
+  font-size: calc(0.75em + 1vmin);
+}
+
+div, .center {
+text-align:center;
+}
+
+.flip-clock-wrapper {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 1em;
+}
+
+.clock {
+  display: inline-block;
+  width: auto;
+}
+
+.flip-clock-divider.hours,
+.clock ul:nth-child(1),
+.clock ul:nth-child(2),
+.clock ul:nth-child(3) {
+  display: none;
+}
+
+input[type="number"] {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 50px;
+  background-color: #222;
+  color: #ccc;
+  border-radius: 10px;
+  font-size: 32px;
+  height: 36px;
+  width: 96px;
+}
+
+.btn {
+  margin: 5%;
+	border-radius: 10px;
+  background-color: #222;
+  color: #ccc;
+}
+.btn:hover{
+  color: #87CEEB;
+}
+.btn:focus {
+  color: #ccc;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, Times, sans-serif;
+}
+
+.flip-clock-divider.hours {
+display: none;
+}
+
+.valueTitle {
+  margin: 5% 0;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 24px;
+}
