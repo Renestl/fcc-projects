@@ -1,4 +1,4 @@
-// Code goes here
+$(document).ready(function() {
 
 // assign the players
 var player,
@@ -177,3 +177,5 @@ function checkDraw() {
 //}
 
 //Mark position clicked
+
+};
