@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+
+  <body>
+    <section class="container">
+    
+      <h1>Tic Tac Toe</h1>
+    
+      <h3>Play as 
+      <button id="xButton" onclick="assignment.xButton()">X</button> 
+      or 
+      <button id="oButton" onclick="assignment.oButton()">O</button>
+      ?
+      </h3>
+
+      
+      <table class="board">
+        <tr class="row1">
+          <td id="c1r1" class="cell1 field"></td>
+          <td id="c2r1" class="cell2 field"></td>
+          <td id="c3r1" class="cell3 field"></td>
+        </tr>
+        <tr class="row2">
+          <td id="c1r2" class="cell1 field"></td>
+          <td id="c2r2" class="cell2 field"></td>
+          <td id="c3r2" class="cell3 field"></td>
+        </tr>
+        <tr class="row3">
+          <td id="c1r3" class="cell1 field"></td>
+          <td id="c2r3" class="cell2 field"></td>
+          <td id="c3r3" class="cell3 field"></td>
+        </tr>
+      </table>
+    
+      <h4>Score:
+      <br>
+      <p>Player <span class="badge player X">0</span>
+      Computer <span class="badge computer O">0</span></p>
+      </h4>
+    </section>
+    
+    <footer>
+      <p class="copyright">Copyright &copy; Jennifer Currie &amp; Illogical Artist 2015 - 2016. 
+      All Rights Reserved.</p>
+      <p>
+        <a href="https://github.com/Renestl" target='_blank'>
+          <i class="fa fa-github fa-fw"></i>
+        </a>
+      </p>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js"></script>
+    
+    <!-- Custom JS scripts -->
+    <script src="script.js"></script>
+    
+  </body>
+
+</html>
