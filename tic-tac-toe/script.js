@@ -4,12 +4,36 @@ $(document).ready(function() {
 var player,
   computer,
   moves = 0,
-  currentPlayer = "X",
+  currentPlayer = 'X',
   playerScore = 0,
   computerScore = 0,
   gameOver = false;
 
-// TODO: sets the player if button is clicked
+// sets the player if button is clicked
+// 'X' always goes first
+$('button').click(function() {
+  if ($(this).attr('id') === ('xButton')) {
+    player = "X";
+    computer = 'O';
+    currentPlayer = player;
+    // fadeMsg();
+  } else if ($(this).attr('id') === ('oButton')) {
+    player = "O";
+    computer = 'X';
+    currentPlayer = computer;
+    // fadeMsg();
+    // compFirst();
+  }
+});
+
+//TODO: fadeMsg(); 
+// fade in message
+// 'Start Us Off!' (for player = X)
+// 'Computer Starts!' (for computer = X)
+// fade out message
+
+// TODO: compFirst()
+//allows the computer to make the first move
 
 
 // enters player letter, toggles to next player
@@ -84,7 +108,7 @@ function checkWin() {
 // TODO: update score function
 // function updateScore() {
 //   if (gameOver === true) {
-    
+
 //   }
 // }
 
@@ -104,7 +128,7 @@ function DrawLine(pos1, pos2, pos3) {
 function checkDraw() {
   if (moves === 9) {
     setTimeout(reset, 1000);
-    
+
     //TODO: popup stating draw
   }
 };

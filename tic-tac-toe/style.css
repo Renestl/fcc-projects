@@ -49,6 +49,10 @@ button {
   font-size: 1em;
 }
 
+.playWin {
+  background-color: green;
+}
+
 footer {
   background: #222;
   color: dimgrey;
